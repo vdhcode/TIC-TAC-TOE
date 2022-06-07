@@ -56,7 +56,7 @@ Array.from(boxes).forEach(element => {
             if (boxText.innerText === "") {
                 boxText.innerText = turn;
                 turn = changeTurn();
-                //nextTurn.play();
+                // nextTurn.play();
                 checkWin();
                 if (!isGameOver) {
                     document.getElementsByClassName("info")[0].innerText = " Turn for " + turn;
